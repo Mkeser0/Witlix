@@ -20,6 +20,13 @@ header {
     align-items: center;
     gap: 0.5rem;
 }
+.user-controls input {
+    background-image: url("https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1rem;
+    padding-right: 1rem;
+}
 header nav {
     display: flex;
     gap: 1rem;
@@ -29,6 +36,7 @@ header nav a {
     color: black;
     font-size: .7rem;
 }
+
 .fa-bell {
     font-size: 1.5rem;
 }
@@ -108,7 +116,7 @@ main {
     display: flex;
     width: 100%;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     gap: 1rem;
     padding: 1rem 0;
     
